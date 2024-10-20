@@ -1,0 +1,23 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .taskList li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .taskList li:hover {
+    background-color: #f0f0f0;
+  }
+  
