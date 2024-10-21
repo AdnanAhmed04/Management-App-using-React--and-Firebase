@@ -38,14 +38,14 @@ function Signup() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-        />
+        /><br/>
         <input
           type="password"
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
-        />
+        /><br/>
         <button type="submit">Signup</button>
       </form>
     </div>
