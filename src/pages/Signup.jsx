@@ -31,6 +31,7 @@ function Signup() {
 
   return (
     <div className={styles.container}>
+      <h2>Signup</h2><br/>
       <form onSubmit={handleSignup}>
         <input
           type="email"
