@@ -22,6 +22,7 @@ function Login() {
 
   return (
     <div className={styles.container}>
+      <h2>Login</h2><br/>
       <form onSubmit={handleLogin}>
         <input
           type="email"
